@@ -24,7 +24,6 @@ const App: React.FC = () => {
     }
   }, []);
 
-  // useEffect para buscar os livros quando o componente montar
   useEffect(() => {
     fetchBooks();
   }, [fetchBooks]);
